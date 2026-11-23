@@ -59,6 +59,36 @@ High-resolution aerial satellite imagery ($256 \times 256$, Zoom 17, $\sim 1.11\
 
 ---
 
+## ⚡ Quick Start: One-Click Environment Setup (with `uv`)
+
+This project uses [`uv`](https://docs.astral.sh/uv/) for ultra-fast dependency resolution and isolated virtual environments.
+
+### 🪟 Windows (One-Click)
+Double-click **`setup.bat`**, or run in PowerShell:
+```powershell
+.\setup.ps1
+```
+*(If `uv` is not present on your system, the script automatically installs it, creates an isolated `.venv`, and installs all dependencies from `req.txt`)*.
+
+### 🐧 Linux / macOS
+```bash
+chmod +x setup.sh && ./setup.sh
+```
+
+### 📦 Manual Installation
+```bash
+# Using uv (fastest)
+uv venv .venv
+uv pip install -r req.txt
+
+# Or using standard pip
+python -m venv .venv
+# Windows: .venv\Scripts\activate | Linux/macOS: source .venv/bin/activate
+pip install -r req.txt
+```
+
+---
+
 ## 📂 Repository Structure & Core Modules
 
 | Script | Purpose & Functionality |
