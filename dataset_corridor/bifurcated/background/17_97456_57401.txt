@@ -1,0 +1,11 @@
+{
+  "tile_id": "17_97456_57401",
+  "image_path": "dataset_corridor/images\\17_97456_57401.jpg",
+  "predicted_primary": "agricultural_land",
+  "confidence": 0.0932,
+  "prob_road": 0.4709,
+  "prob_water": 0.1464,
+  "prob_drain": 0.6183,
+  "prob_canal": 0.3448,
+  "prob_river": 0.8846
+}

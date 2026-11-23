@@ -1,0 +1,11 @@
+{
+  "tile_id": "17_97469_57406",
+  "image_path": "dataset_corridor/images\\17_97469_57406.jpg",
+  "predicted_primary": "river",
+  "confidence": 0.0672,
+  "prob_road": 0.5029,
+  "prob_water": 0.2045,
+  "prob_drain": 0.616,
+  "prob_canal": 0.3942,
+  "prob_river": 0.9477
+}
